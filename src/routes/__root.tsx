@@ -18,7 +18,7 @@ function RootComponent() {
                     <NavigationMenuDemo />
                 </div>
             )}
-            <div className={isLoginPage ? '' : 'container mx-w-7xl mx-auto'}>
+            <div className={isLoginPage ? '' : 'container max-w-7xl mx-auto'}>
                 <Outlet />
             </div>
         </>
